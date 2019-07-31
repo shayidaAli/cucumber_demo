@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user on the log in page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2352952887,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "OPEN THE LOG IN PAGE",
+            "match": {
+              "location": "login_sd.open_THE_LOG_IN_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "login as a driver",
+        "description": "",
+        "id": "login-test;login-as-a-driver",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3192605374,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user log in with username and password",
+            "match": {
+              "location": "login_sd.user_log_in_with_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3142921854,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be on the home page",
+            "match": {
+              "location": "login_sd.user_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user on the log in page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1616835143,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "OPEN THE LOG IN PAGE",
+            "match": {
+              "location": "login_sd.open_THE_LOG_IN_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "log in as a storeManager",
+        "description": "",
+        "id": "login-test;log-in-as-a-storemanager",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3385103384,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "manager log in with username and password",
+            "match": {
+              "location": "login_sd.manager_log_in_with_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3011606652,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "manager should be on the home page",
+            "match": {
+              "location": "login_sd.manager_should_be_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
