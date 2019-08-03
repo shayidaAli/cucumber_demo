@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+//TO LOCTE THE ELEMENTS ON THIS WEB PAGE USEING PAGE FACTORY
+
 public class LoginPage {
 
     public LoginPage(){

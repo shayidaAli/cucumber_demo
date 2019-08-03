@@ -17,9 +17,6 @@ public class Hooks {
         // you can also add maximize screen here
         Driver.getDriver().manage().window().maximize();
 
-
-
-
     }
 
     @After
