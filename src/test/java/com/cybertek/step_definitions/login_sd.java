@@ -52,6 +52,7 @@ public class login_sd {
 
     }
 
+
 //scenario outline: LOG IN FOR DIFFERENT USERS
     @Given("user on the log in page")
     public void usen_on_the_log_in_page() {

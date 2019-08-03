@@ -29,6 +29,8 @@ Feature:  login test
 
 
 
+
+
 #  create it as Scenario outline;
 #  add the keywords
 #  add Examples which includes keyword and its input value
@@ -47,6 +49,7 @@ Feature:  login test
     |selenium|
     |cherry  |
     |dashbord|
+
 
 
 
