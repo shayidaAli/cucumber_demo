@@ -1,6 +1,5 @@
 # CREATED FEATURES WITH GHERKIN LANGUAGE
 
-@wip
 Feature:  login test
 
   Background:  user on the log in page
@@ -16,7 +15,7 @@ Feature:  login test
     Then manager should be on the home page
 
 
-
+@wip
   Scenario Outline: log in as different user
     Given user on the log in page
     When user enters valid "<username>" and "<password>"

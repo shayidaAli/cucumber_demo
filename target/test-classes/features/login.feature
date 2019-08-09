@@ -1,6 +1,5 @@
 # CREATED FEATURES WITH GHERKIN LANGUAGE
 
-@wip
 Feature:  login test
 
   Background:  user on the log in page
@@ -16,7 +15,7 @@ Feature:  login test
     Then manager should be on the home page
 
 
-
+@wip
   Scenario Outline: log in as different user
     Given user on the log in page
     When user enters valid "<username>" and "<password>"
@@ -26,6 +25,10 @@ Feature:  login test
       | user189 | UserUser123 | driver |
       | storemanager222 | UserUser123 | stor_manager |
       | salesmanager285 | UserUser123 | sale_manager |
+
+
+
+
 
 #  create it as Scenario outline;
 #  add the keywords
@@ -39,12 +42,13 @@ Feature:  login test
     Given User on the search page
     When  User enters valid "<input>"
     Then  Title should contain the "<input>"
-  
+
     |macbook|
     |cucumber|
     |selenium|
     |cherry  |
     |dashbord|
+
 
 
 
