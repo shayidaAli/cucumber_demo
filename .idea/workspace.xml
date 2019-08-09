@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d14fcc2-b262-4861-8964-7a3a44f1ff26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DATABASETESTING.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-    </list>
+    <list default="true" id="1d14fcc2-b262-4861-8964-7a3a44f1ff26" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DATABASETESTING.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="395">
+              <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,7 +184,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
+    <option name="x" value="22" />
     <option name="y" value="23" />
     <option name="width" value="1316" />
     <option name="height" value="814" />
@@ -235,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565370114811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565370599089" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -389,9 +383,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__table - 2019.08.01 at 02h 46m 01s.xml">
-      <configuration name="Feature: table" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__table - 2019.08.01 at 02h 46m 15s.xml">
       <configuration name="Feature: table" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -419,9 +410,12 @@
     <history-entry file="DATABASETESTING_testingDB - 2019.08.09 at 12h 54m 13s.xml">
       <configuration name="DATABASETESTING.testingDB" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DATABASETESTING_testingDB - 2019.08.09 at 13h 03m 42s.xml">
+      <configuration name="DATABASETESTING.testingDB" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="23" width="1316" height="814" extended-state="0" />
+    <frame x="22" y="23" width="1316" height="814" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15620095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,12 +426,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25207755" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25207755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17590028" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17590028" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.19060774" />
@@ -602,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DATABASETESTING.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="395">
+          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
