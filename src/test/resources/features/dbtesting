@@ -1,0 +1,10 @@
+Feature: testing the database
+
+  @db
+  Scenario: update username based on the DBase
+    Given: connect to the database with java
+    When: retrieving 20 names from employees table with sq
+    Then: save names as a name list
+    And: using name list to update username for user in the UI
+
+

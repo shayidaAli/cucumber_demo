@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d14fcc2-b262-4861-8964-7a3a44f1ff26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/APItesting/testingAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/db_step_definition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dbtesting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DATABASETESTING.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DATABASETESTING.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DATABASETESTING.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/DBtesting/DATABASETESTING.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/cukesrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/cukesrunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/table.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/table.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DATABASETESTING.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/cukesrunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/cukesrunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/table.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/table.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,60 +28,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/runners/cukesrunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/table_sd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/runners/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-64">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.2/cucumber-core-4.2.2.jar!/cucumber/api/Scenario.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/login_sd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -77,17 +48,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="325">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/DBtesting/DATABASETESTING.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DATABASETESTING.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/APItesting/testingAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="97">
+              <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,13 +79,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/dbtesting">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/table.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cucumber_demo.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -110,22 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Configuration.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/googleSearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-              </folding>
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -157,14 +150,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/scenarioOutile_sd.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/pages/googleSearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/runners/cukesrunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/login_sd.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/table_sd.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/table.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/runners/Hooks.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DATABASETESTING.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/DBtesting/DATABASETESTING.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/runners/cukesrunner.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/table.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/dbtesting" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/APItesting/testingAPI.java" />
       </list>
     </option>
   </component>
@@ -186,11 +182,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1316" />
-    <option name="height" value="814" />
+    <option name="width" value="1440" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,14 +218,68 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cucumber_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+              <item name="APItesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565370613068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565832097565" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -251,33 +298,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DATABASETESTING.testingDB">
-    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.testingAPI.test1">
+    <configuration name="Feature: dbtesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-      <option name="GLUE" value="com.cybertek.runners com.cybertek.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="cucumber_demo" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: table" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/table.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dbtesting" />
       <option name="GLUE" value="com.cybertek.runners" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="cucumber_demo" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: table" />
+      <option name="SUGGESTED_NAME" value="Feature: dbtesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -288,34 +317,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Search funtionality for google" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: update username based on the DBase" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/table.feature" />
       <option name="GLUE" value="com.cybertek.runners com.cybertek.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="cucumber_demo" />
-      <option name="NAME_FILTER" value="^Search funtionality for google$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Search funtionality for google$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search funtionality for google" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: table practice" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/table.feature" />
-      <option name="GLUE" value="com.cybertek.runners" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="cucumber_demo" />
-      <option name="NAME_FILTER" value="^table practice$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^table practice$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: table practice" />
+      <option name="NAME_FILTER" value="^update username based on the DBase$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^update username based on the DBase$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: update username based on the DBase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -328,8 +338,14 @@
     </configuration>
     <configuration name="DATABASETESTING.testingDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cucumber_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DATABASETESTING" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.DBtesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.DBtesting" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.DBtesting.DATABASETESTING" />
       <option name="METHOD_NAME" value="testingDB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -354,13 +370,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testingAPI.GetWeatherHeaders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.APItesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.APItesting" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.APItesting.testingAPI" />
+      <option name="METHOD_NAME" value="GetWeatherHeaders" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testingAPI.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.APItesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.APItesting" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.APItesting.testingAPI" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testingAPI.test1" />
+        <item itemvalue="JUnit.testingAPI.GetWeatherHeaders" />
+        <item itemvalue="Cucumber java.Feature: dbtesting" />
         <item itemvalue="JUnit.DATABASETESTING.testingDB" />
-        <item itemvalue="Cucumber java.Scenario: Search funtionality for google" />
-        <item itemvalue="Cucumber java.Feature: login" />
-        <item itemvalue="Cucumber java.Feature: table" />
-        <item itemvalue="Cucumber java.Scenario: table practice" />
+        <item itemvalue="Cucumber java.Scenario: update username based on the DBase" />
       </list>
     </recent_temporary>
   </component>
@@ -393,42 +441,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__table - 2019.08.01 at 02h 46m 15s.xml">
-      <configuration name="Feature: table" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 20h 50m 42s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__table - 2019.08.01 at 02h 46m 24s.xml">
-      <configuration name="Feature: table" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 20h 52m 33s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__table - 2019.08.01 at 02h 47m 08s.xml">
-      <configuration name="Feature: table" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 20h 54m 09s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__table - 2019.08.01 at 02h 47m 15s.xml">
-      <configuration name="Feature: table" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="testingAPI_GetWeatherHeaders - 2019.08.14 at 20h 57m 12s.xml">
+      <configuration name="testingAPI.GetWeatherHeaders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__table - 2019.08.01 at 12h 38m 56s.xml">
-      <configuration name="Feature: table" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 21h 10m 57s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__login - 2019.08.01 at 12h 40m 10s.xml">
-      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 21h 14m 36s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Search_funtionality_for_google - 2019.08.03 at 18h 01m 30s.xml">
-      <configuration name="Scenario: Search funtionality for google" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 21h 14m 51s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DATABASETESTING_testingDB - 2019.08.09 at 12h 53m 45s.xml">
-      <configuration name="DATABASETESTING.testingDB" configurationId="JUnit" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 21h 15m 28s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DATABASETESTING_testingDB - 2019.08.09 at 12h 54m 13s.xml">
-      <configuration name="DATABASETESTING.testingDB" configurationId="JUnit" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 21h 19m 06s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DATABASETESTING_testingDB - 2019.08.09 at 13h 03m 42s.xml">
-      <configuration name="DATABASETESTING.testingDB" configurationId="JUnit" />
+    <history-entry file="testingAPI_test1 - 2019.08.14 at 21h 21m 34s.xml">
+      <configuration name="testingAPI.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1316" height="814" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15855573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -436,21 +483,21 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25207755" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41585535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17590028" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.175" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32963988" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.19060774" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32936507" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32904148" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -481,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber_demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -506,52 +546,6 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/Cucumber.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/table.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/runners/cukesrunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/table_sd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/runners/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/Cucumber.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -561,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/login_sd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="855">
           <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -569,16 +563,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="435">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -586,16 +573,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/googleSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="120">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -605,10 +585,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DATABASETESTING.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="170">
+          <caret line="663" selection-start-line="663" selection-end-line="663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/table_sd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/runners/cukesrunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/db_step_definition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber_demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/table.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/dbtesting">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/DBtesting/DATABASETESTING.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.2/cucumber-core-4.2.2.jar!/cucumber/api/Scenario.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/runners/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/APItesting/testingAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,5 @@
-@tab
 Feature: Cucumber can convert a Gherkin data table to a list of a type you specify.
-
+  @xayida
   Scenario: The sum of a list of numbers should be calculated
     Given a list of numbers
       | 17   |
@@ -8,3 +7,6 @@ Feature: Cucumber can convert a Gherkin data table to a list of a type you speci
       | 4711 |
     When I summarize them
     Then should I get 4770
+
+
+

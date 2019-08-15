@@ -1,5 +1,6 @@
-import org.junit.Test;
+package com.cybertek.DBtesting;
 
+import org.junit.Test;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,13 +43,14 @@ public class DATABASETESTING {
         //create a list which will hold column names
         List<String> columns = new ArrayList<>();
 
-            //to loop through columns
-            for(int i =1; i<=count;i++) {
-                //we are adding columns one my one based on the index of column, starting from 1
-                columns.add(mt.getColumnName(i));
-            }
+        //to loop through columns
+        for(int i =1; i<=count;i++) {
+            //we are adding columns one my one based on the index of column, starting from 1
+            columns.add(mt.getColumnName(i));
+        }
 
         System.out.println(columns.toString());
 
     }
+
 }
