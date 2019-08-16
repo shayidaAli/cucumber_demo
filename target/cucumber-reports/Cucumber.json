@@ -3,13 +3,63 @@
     "line": 1,
     "elements": [
       {
-        "line": 13,
-        "name": "update username based on the DBase",
-        "description": "    Given: connect to the database with java\n    When: retrieving 20 names from employees table with sq\n    Then: save names as a name list\n    And: using name list to update username for user in the UI",
-        "id": "cucumber-can-convert-a-gherkin-data-table-to-a-list-of-a-type-you-specify.;update-username-based-on-the-dbase",
+        "line": 3,
+        "name": "checking data base",
+        "description": "",
+        "id": "testing-the-database;checking-data-base",
         "type": "scenario",
         "keyword": "Scenario",
-        "steps": [],
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.postgresql.util.PSQLException: An error occurred while setting up the SSL connection.\n\tat org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:445)\n\tat org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:94)\n\tat org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)\n\tat org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)\n\tat org.postgresql.jdbc.PgConnection.\u003cinit\u003e(PgConnection.java:195)\n\tat org.postgresql.Driver.makeConnection(Driver.java:458)\n\tat org.postgresql.Driver.connect(Driver.java:260)\n\tat java.sql.DriverManager.getConnection(DriverManager.java:664)\n\tat java.sql.DriverManager.getConnection(DriverManager.java:247)\n\tat com.cybertek.step_definitions.db_step_definition.user_connect_to_the_data_base(db_step_definition.java:24)\n\tat ✽.user connect to the data base(/Users/syd/Downloads/cucumber_demo/src/test/resources/features/dbtesting:4)\n",
+              "duration": 68354685,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user connect to the data base",
+            "match": {
+              "location": "db_step_definition.user_connect_to_the_data_base()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15196,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user get employee names from employee table",
+            "match": {
+              "location": "db_step_definition.user_get_employee_names_from_employee_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6381,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user log in to Vytrack with valid credentials",
+            "match": {
+              "location": "db_step_definition.user_log_in_to_Vytrack_with_valid_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4933,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user edit user information with employee name",
+            "match": {
+              "location": "db_step_definition.user_edit_user_information_with_employee_name()"
+            },
+            "keyword": "And "
+          }
+        ],
         "tags": [
           {
             "name": "@db"
@@ -17,11 +67,11 @@
         ]
       }
     ],
-    "name": "Cucumber can convert a Gherkin data table to a list of a type you specify.",
+    "name": "testing the database",
     "description": "",
-    "id": "cucumber-can-convert-a-gherkin-data-table-to-a-list-of-a-type-you-specify.",
+    "id": "testing-the-database",
     "keyword": "Feature",
-    "uri": "/Users/syd/Downloads/cucumber_demo/src/test/resources/features/table.feature",
+    "uri": "/Users/syd/Downloads/cucumber_demo/src/test/resources/features/dbtesting",
     "tags": []
   }
 ]

@@ -12,9 +12,9 @@ import org.junit.runner.RunWith;
                 "pretty", "json:target/cucumber-reports/Cucumber.json",
                 "junit:target/cucumber-reports/Cucumber.xml"
         },
-        features = "/Users/syd/Downloads/cucumber_demo/src/test/resources/features/table.feature",
+        features = "/Users/syd/Downloads/cucumber_demo/src/test/resources/features/dbtesting",
         glue = "com/cybertek/step_definitions"
-        , dryRun = true,
+        , dryRun = false,
         tags = "@db"
 
 )

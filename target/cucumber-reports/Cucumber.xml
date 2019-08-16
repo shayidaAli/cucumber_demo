@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.000943">
-<testcase classname="Cucumber can convert a Gherkin data table to a list of a type you specify." name="update username based on the DBase" time="0.000943">
-<skipped message="The scenario has no steps"/>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.070496">
+<testcase classname="testing the database" name="checking data base" time="0.070496">
+<failure message="org.postgresql.util.PSQLException: An error occurred while setting up the SSL connection.&#10;&#9;at org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:445)&#10;&#9;at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:94)&#10;&#9;at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)&#10;&#9;at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)&#10;&#9;at org.postgresql.jdbc.PgConnection.&lt;init&gt;(PgConnection.java:195)&#10;&#9;at org.postgresql.Driver.makeConnection(Driver.java:458)&#10;&#9;at org.postgresql.Driver.connect(Driver.java:260)&#10;&#9;at java.sql.DriverManager.getConnection(DriverManager.java:664)&#10;&#9;at java.sql.DriverManager.getConnection(DriverManager.java:247)&#10;&#9;at com.cybertek.step_definitions.db_step_definition.user_connect_to_the_data_base(db_step_definition.java:24)&#10;&#9;at ✽.user connect to the data base(/Users/syd/Downloads/cucumber_demo/src/test/resources/features/dbtesting:4)&#10;"><![CDATA[Given user connect to the data base.........................................failed
+When user get employee names from employee table............................skipped
+Then user log in to Vytrack with valid credentials..........................skipped
+And user edit user information with employee name...........................skipped
+
+StackTrace:
+org.postgresql.util.PSQLException: An error occurred while setting up the SSL connection.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.enableSSL(ConnectionFactoryImpl.java:445)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:94)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.cybertek.step_definitions.db_step_definition.user_connect_to_the_data_base(db_step_definition.java:24)
+	at ✽.user connect to the data base(/Users/syd/Downloads/cucumber_demo/src/test/resources/features/dbtesting:4)
+]]></failure>
 </testcase>
 </testsuite>
