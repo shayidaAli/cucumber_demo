@@ -15,19 +15,22 @@ public class getAccessToken {
 
     @Test
     public void getTokenTest() {
+
+        //write base url, prepare your request
         RestAssured.baseURI = "https://cybertek-reservation-api-qa.herokuapp.com/";
 
+        //create response object, using valid user credentials
         Response response = given().log().all().
                 param("email", "teacherva5@gmail.com").
                 param("password", "maxpayne").
-                get("/sign"); //no you have the response after log in to room reservation app
+                get("/sign"); //now you have the response after log in to room reservation app
 
-        response.then().log().all().
+                response.then().log().all().
                 assertThat().statusCode(200);
 
 
 
- //        used to parse through json response easily
+ //  response contains the access token, Now use jsonPath object to parse through json response easily
        String accessToken = response.jsonPath().get("accessToken");
 
         System.out.println(accessToken);
@@ -37,13 +40,14 @@ public class getAccessToken {
 
 
         RestAssured.given().
-                 header("Authorization", accessToken).
+                  header("Authorization", accessToken).
                 get("/api/campuses").then().log().all().
                 assertThat().statusCode(200);
 
     }
 
 }
+
 //if you dont have the access, you will get 422 error/connection closed
 
 //in order to get access token:

@@ -1,0 +1,57 @@
+//NOTE FOR 8/15
+
+//how to send REQUEST:
+// first select the http method (get, post, put, delete) and provide the resource/Endpoint/url
+// 3 method( add params directly to the url, add path param, add query params)
+// path params: is basically used to identify a specific resource or resources
+// query params:  is used to filter those response
+
+
+//how to read the RESPONSE:
+//response.getHeaders();  -->print all header info
+//response.header("content-type"); -->return specific header, use .header() method for response, add header type as a parameter.
+
+//response.statusCode(); --> return the status code, to checking the web service
+
+// response.prettyprint(); --> print out the whole response body
+// response.log().all(); --> print all headers
+// response.getBody().asString();  --> return the response body only
+// response.jsonPath().get("name"); --> read the json object from the response, specify the json path
+
+//how to specify the AMOUNT?   use query param:
+//queryParam("amount", "4")
+
+
+// how to verify RESPONSE:   use hamcrest to assert.
+/*
+assertThat(1, equalTo(1));
+assertThat("as", is("as"));
+assertThat("Shayida", equalToIgnoringCase("shayIDA"));
+assertThat(10, lessThan(299));
+assertThat(9, greaterThan(10));
+assertThat(List, hasSize(5));
+ */
+
+
+//ORDER OF REST-ASSURED METHODS
+//given() --> prepare the request
+//params()  --> provide the request specification
+//when() --> send the request when the request is already prepared
+//get() --> get the response,
+
+
+
+//how to get ACCESS TOKEN/ AUTHORIZATION:
+//1. add valid log in credentials as parameters, then get the response
+//2. get the access token from response json object
+//3. send another request includes access token as header parameter.
+
+//if you don't have the access, you will get 422 error/connection closed
+
+//POST request: 201
+//1. select the method type as POST, provide the URL/EndPoint
+//2. if you need authorization, provide token as header param
+//2. add json body,
+//3. select content type as "Application/Json" for header to your request
+// send your request, verify the status code 201
+//for the body, you can add json object, or , add query parameters.

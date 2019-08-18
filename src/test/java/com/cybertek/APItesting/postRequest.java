@@ -14,6 +14,7 @@ public class postRequest {
     //this test wont be executed because no access.
     @Test
     public void postJson(){
+      //prepare the request
         RestAssured.baseURI ="http://restapi.demoqa.com/customer";
         RequestSpecification request = RestAssured.given();
 
@@ -63,7 +64,7 @@ public class postRequest {
 
     }
 
-    //post method with queryparam
+    //post method with query param
     @Test
     public void createTeam1() {
         String token = getTeacherToken();
@@ -95,7 +96,8 @@ public class postRequest {
         requestParams.put("batch-number", "11");
         requestParams.put("team-name", "simpleuser001");
 
-        request.header("Content-Type", "application/json").
+        request.
+                header("Content-Type", "application/json").
                 header("Authorization", token).
                 body(requestParams.toJSONString()).
                 post("/api/teams/team").then().log().all().statusCode(201);

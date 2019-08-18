@@ -19,6 +19,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
 public class testingAPI {
+
     Logger log = Logger.getLogger(testingAPI.class);
 
     //simple get request from api
@@ -141,12 +142,12 @@ public class testingAPI {
         Response response = httpRequest.get("/Atlanta");
         response.prettyPrint();
 
-        // in order to read JSON body from the response: F irst get the JsonPath object instance from the Response interface
+        // in order to read JSON body from the response: First get the JsonPath object instance from the Response interface
         JsonPath jsonobject = response.jsonPath();
 
         // Then simply query the JsonPath object to get a String value of the node
         // specified by JsonPath: City (Note: You should not put $. in the Java code)
-        String city = jsonobject.get("City");
+        String city = response.jsonPath().get("City");
 
         // Let us print the city variable to see what we got
         System.out.println("City received from Response is : " + city);
@@ -155,7 +156,7 @@ public class testingAPI {
         System.out.println("Temperature received from Response " + jsonobject.get("Temperature"));
 
         // Print the humidity node
-        System.out.println("Humidity received from Response " + jsonobject.get("Humidity"));
+        System.out.println("Humidity received from Response " + response.jsonPath().get("Humidity"));
 
         // Print weather description
         System.out.println("Weather description received from Response " + jsonobject.get("Weather"));
@@ -172,7 +173,7 @@ public class testingAPI {
 //(Path Param) is basically used to identify a specific resource or resources
     @Test
     public void getCityByNameTest(){
-        RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather";
+        RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/";
 
         // statement where we prepare the request
         given()
@@ -236,48 +237,11 @@ public class testingAPI {
 //                prettyPrint();
 //
         //method4: limit the response with interger
-       Response response= given().queryParam("amount","4").when().get();
+       given().queryParam("amount","4").when().get().then().log().all();
 
-        assertThat(200, equalTo(response.statusCode()));
 
+
+       // assertThat(200, equalTo(response.statusCode()));
     }
-//NOTE FOR 8/15
-
-//how to send request:
-// 3 method( add params directly to the url, add path param, add query params)
-
-
-//how to read the response:
-//response.getHeaders();  -->print all header info
-//response.header("key"); -->return specific header
-
-//response.statusCode(); --> return the status code
-
-// response.prettyprint(); --> print out the response body
-// response.getBody().asString();  --> print out the response body
-// response.jsonPath(); --> read the json object from the response, specify the json path
-
-//how to specify the amount?   use query param:
-//queryParam("amount", "4")
-
-
-// how to verify response:   use hamcrest to assert.
-/*
-assertThat(1, equalTo(1));
-assertThat("as", is("as"));
-assertThat("Shayida", equalToIgnoringCase("shayIDA"));
-assertThat(10, lessThan(299));
-assertThat(9,greaterThan(10));
-assertThat(List, hasSize(5));
- */
-
-
-//given() --> prepare the request
-//params()  --> provide the request specification
-//when() --> send the request when the request is already prepared
-//get() --> get the response,
-
-
-
 
 }
