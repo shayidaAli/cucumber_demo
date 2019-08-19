@@ -1,0 +1,25 @@
+TASK 1:
+use CYBERTEK Spartans API
+POSITIVE Test: 
+First, use GET method with valid query params, to verify if the server is working(status code);
+Then,  make a POST call with your information, verify if it created(status code), verify if the centent-type(header) is Application/json
+
+NEGATIVE Test:
+ use GET method, with invalid path params, to verify if the server is working(status code);
+
+
+TASK 2: 
+user CYBERTEK Room-reservation API
+POSITIVE Test:
+Fisrt, get access Token with valid username and password, check the status 
+Then, (Serilization)  post using JSONobject, check if it is working.
+
+NEGATIVE Test:
+Try to get access token with invalid username and password.
+
+
+TASK 3:
+user uni/names API
+1. get a person's information, use JsonPath Object to to do deserilization, create a String list for the person.
+2. get 3 persons information, use for loop to print each of them separately
+3. create a POJO class(you can use mine), use GSON to print a persons information.
