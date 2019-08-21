@@ -14,7 +14,7 @@
 //response.statusCode(); --> return the status code, to checking the web service
 
 // response.prettyprint(); --> print out the whole response body
-// response.log().all(); --> print all headers
+// response.log().all(); --> print all headers AND BODY
 // response.getBody().asString();  --> return the response body only
 // response.jsonPath().get("name"); --> read the json object from the response, specify the json path
 
@@ -55,3 +55,10 @@ assertThat(List, hasSize(5));
 //3. select content type as "Application/Json" for header to your request
 // send your request, verify the status code 201
 //for the body, you can add json object, or , add query parameters.
+
+
+//Java to Json ---> SERILIZATION (POST)
+
+//Json to Java ---> DESERILIZATION (read response, convert response json into Java object) ,create POJO, use Object mapper/GSON, JsonPath object.
+
+//POJO--- it’s a pure data structure that has fields with getters and possibly setters

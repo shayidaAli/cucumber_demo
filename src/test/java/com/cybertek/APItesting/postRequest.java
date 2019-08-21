@@ -12,6 +12,8 @@ import static org.hamcrest.CoreMatchers.is;
 
 public class postRequest {
     //this test wont be executed because no access.
+    //SERILIZATION
+
     @Test
     public void postJson(){
       //prepare the request
@@ -64,16 +66,36 @@ public class postRequest {
 
     }
 
+
     //post method with query param
     @Test
     public void createTeam1() {
-        String token = getTeacherToken();
+
+        //GETTING AUTHORIZED BY PROVIDING WHO I AM
+        //PROVIDE WHO I AM, THEN GET THE AUTHORIZATION/THE POWER TO ACCESS/TOKEN
+        RestAssured.baseURI = "https://cybertek-reservation-api-qa.herokuapp.com";
+
+        Response response = given().log().all().
+                param("email", "teacherva5@gmail.com").
+                param("password", "maxpayne").
+                get("/sign");
+        response.then().log().all().
+                assertThat().statusCode(200);
+
+
+        String token =response.jsonPath().get("accessToken");
+
+
         System.out.println(token);
 
-        String team =new Faker().team().name();
+
+        //USE THE TOKEN TO SEND MY REQUEST
+        String team ="HAAGSJGAJDS";
         String batch = "8";
+
         RestAssured.given().
                 header("Authorization", token).
+                header("Content-Type", "application/json").
                 queryParam("campus-location", "VA").
                 queryParam("batch-number", batch).
                 queryParam("team-name", team).
@@ -84,10 +106,25 @@ public class postRequest {
 
     }
 
+
     //post method with json object
     @Test
     public void createTeam2(){
-        String token= getTeacherToken();
+
+        //GETTING AUTHORIZED BY PROVIDING WHO I AM
+        //PROVIDE WHO I AM, THEN GET THE AUTHORIZATION/THE POWER TO ACCESS/TOKEN
+        RestAssured.baseURI = "https://cybertek-reservation-api-qa.herokuapp.com";
+
+        Response response = given().log().all().
+                param("email", "teacherva5@gmail.com").
+                param("password", "maxpayne").
+                get("/sign");
+        response.then().log().all().
+                assertThat().statusCode(200);
+
+
+        String token =response.jsonPath().get("accessToken");
+
        // RestAssured.baseURI="https://cybertek-reservation-api-qa.herokuapp.com";
         RequestSpecification request = RestAssured.given();
 
@@ -102,8 +139,16 @@ public class postRequest {
                 body(requestParams.toJSONString()).
                 post("/api/teams/team").then().log().all().statusCode(201);
 
-
-
     }
+
+    @Test
+    public void test7(){
+        String token= getTeacherToken();
+
+        RestAssured.baseURI="https://cybertek-reservation-api-qa.herokuapp.com";
+        given().
+                header("Authorization", token).get().then().assertThat().statusCode(200);
+    }
+
 }
 

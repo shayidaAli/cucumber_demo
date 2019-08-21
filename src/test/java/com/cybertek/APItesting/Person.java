@@ -7,10 +7,12 @@ public class Person {
     String region;
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
@@ -19,6 +21,7 @@ public class Person {
     }
 
     public void setSurname(String surname) {
+
         this.surname = surname;
     }
 
@@ -37,6 +40,7 @@ public class Person {
     public void setRegion(String region) {
         this.region = region;
     }
+
 
     @Override
     public String toString() {

@@ -70,6 +70,8 @@ public class testingAPI {
         RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
         RequestSpecification httpRequest = RestAssured.given();
         Response response = httpRequest.get("/Hyderabad");
+        response.then().assertThat().statusCode(200);
+      //  response.then().assertThat().body("")
 
         //get all the headers:
         System.out.println(response.getHeaders().toString());
